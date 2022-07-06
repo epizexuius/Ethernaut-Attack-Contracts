@@ -5,7 +5,7 @@ pragma solidity ^0.6.0;
 contract EthernautLevel12 {
     address gatekeeperContractAddress =
         0xb981986aD8CC949B898347C42Afe0b5cF9D880Dc;
-    bytes8 gateKey = 0x000000010000e16c; //Key obtained from methods as discussed in gate_key.
+    bytes8 gateKey = 0x000000010000e16c; //Key obtained from methods as discussed in test.sol.
 
     //Tried to measure gas by looking at opcodes but there were many factors like different compiler
     //versions so couldn't reach the required answer using this.

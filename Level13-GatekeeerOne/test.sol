@@ -1,6 +1,6 @@
 //SPDX-License-Identifier: MIT
 
-//The aim of this test file is to find out a suitable gate_key for my player address.
+//The aim of this test file is to find a suitable gate_key for my player address.
 
 pragma solidity ^0.6.0;
 
