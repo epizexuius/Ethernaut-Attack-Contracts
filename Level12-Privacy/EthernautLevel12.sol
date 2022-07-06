@@ -7,6 +7,8 @@ interface IPrivacy {
 }
 
 contract EthernautLevel12 {
+    //Variables are stored in storage according to certain rules so checking each variable
+    //type and their order we can determine where a variable is in storage and access it using web3.js
     //Obtain password by accessing storge at index5
     bytes32 password32 =
         0xac9a64a91da9197bf1b5e5aad3ed6854d72534925a474296eb9e44cdf081cfca;
