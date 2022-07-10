@@ -14,8 +14,8 @@ contract EthernautLevel16 {
 
     //Get address of malicious contract in uint256 and pass to setTime
     //It will change the value of storage in original preservation contract at storage of index 0 which was
-    //timeZone1Library initially. It then overwrites this storage slot with our malicious contract address
-    //and we can now do as we please.
+    //the address of timeZone1Library initially. It then overwrites this storage slot with our
+    //malicious contract address and we can now do as we please.
     //The owner variable is stored in the 3rd slot so we can make a new call to setFirstTime which is now our
     //malicious block of code and we can have it overwrite the storage slot of owner with an address of our own
     //hence completing the level.
